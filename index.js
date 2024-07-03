@@ -5,6 +5,7 @@ import { createSpinner } from 'nanospinner'
 import colors from 'colors'
 import util from 'util'
 import link from 'terminal-link'
+import terminalLink from 'terminal-link'
 
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -62,8 +63,8 @@ async function main(){
 
     console.log()
     
-    const githubLink = link('btw its awesome -> ','https://github.com/mohitdudhat22');
-    const websiteLInk = link('Coolest thing -> ','https://3-d-portfolio-delta-ten.vercel.app/');
+    const githubLink = terminalLink('btw its awesome -> ','https://github.com/mohitdudhat22');
+    const websiteLInk = terminalLink('Coolest thing -> ','https://3-d-portfolio-delta-ten.vercel.app/');
     console.log(`NAME    `.green + ' - ' + 'Mohit Dudhat'.cyan);
     console.log(`STATUS  `.green + ' - ' + 'Student'.cyan);
     console.log(`GITHUB  `.green + ' - ' + `${githubLink}`.cyan);
