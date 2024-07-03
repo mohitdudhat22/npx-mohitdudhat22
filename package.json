@@ -1,5 +1,5 @@
 {
-  "name": "mohit",
+  "name": "mohitdudhat22",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "mohit": "./index.js"
+    "mohitdudhat22": "./index.js"
   },
   "keywords": [],
   "author": "",
